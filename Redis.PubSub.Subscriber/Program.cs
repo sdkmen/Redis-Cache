@@ -14,7 +14,7 @@ await subscriber.SubscribeAsync("mychannel", (channel, message) =>
 
 //using pattern-matching subscription
 
-//await subscriber.SubscribeAsync("mychannel.*", (channel, message) =>
+//await subscriber.SubscribeAsync("mychannel.*", (channel, message) => 
 //{
 //    Console.WriteLine(message);
 //});
